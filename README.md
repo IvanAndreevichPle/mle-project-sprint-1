@@ -4,11 +4,11 @@
 
 - `part1_airlfow/` — пайплайны Airflow:
   - `dags/` — DAG'и:
-    - `churn.py`, `clean_churn.py`, `alt_churn.py`, `prepare_churn_dataset.py`, `flats_features.py` — DAG'и для ETL.
-    - Основные DAG'и проекта по недвижимости:
-      - `flats_features.py` — сбор витрины признаков квартир из таблиц `buildings` и `flats` в БД.
-  - `logs/` — логи выполнения DAG'ов Airflow.
-  - `notebooks/` — ноутбуки с анализом и подготовкой данных.
+    - `flats_features.py` — DAG для ETL по данным квартир.
+      - собирает витрину признаков `flats_features` из таблиц `buildings` и `flats` в персональной БД.
+  - `logs/` — логи выполнения DAG'ов Airflow (не хранятся в Git, создаются при запуске).
+  - `notebooks/` — ноутбуки с анализом и подготовкой данных:
+    - `check_and_analyze.ipynb` — ноутбук этапа 2 с анализом и очисткой витрины `flats_features`.
   - `plugins/` — плагины Airflow:
     - `steps/flats.py` — шаги DAG'а по сборке витрины `flats_features`.
     - `steps/messages.py` — Telegram-уведомления об успехе/ошибке.

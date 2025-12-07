@@ -49,9 +49,9 @@ def extract(**kwargs):
     """
     #### Extract
     Загружает объединённые данные из таблиц buildings и flats
-    из исходной БД (source_db).
+    из персональной БД (destination_db).
     """
-    hook = PostgresHook('source_db')
+    hook = PostgresHook('destination_db')
     conn = hook.get_conn()
 
     sql = """
