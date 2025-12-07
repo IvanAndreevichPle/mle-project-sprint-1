@@ -1,0 +1,22 @@
+[2025-12-07T08:26:47.939+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clean_churn_dataset.load manual__2025-12-07T08:26:36.415520+00:00 [queued]>
+[2025-12-07T08:26:47.955+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clean_churn_dataset.load manual__2025-12-07T08:26:36.415520+00:00 [queued]>
+[2025-12-07T08:26:47.955+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-12-07T08:26:47.980+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2025-12-07 08:26:36.415520+00:00
+[2025-12-07T08:26:47.990+0000] {standard_task_runner.py:57} INFO - Started process 180 to run task
+[2025-12-07T08:26:47.999+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'clean_churn_dataset', 'load', 'manual__2025-12-07T08:26:36.415520+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/clean_churn.py', '--cfg-path', '/tmp/tmpdvon3z3m']
+[2025-12-07T08:26:48.005+0000] {standard_task_runner.py:85} INFO - Job 55: Subtask load
+[2025-12-07T08:26:48.157+0000] {task_command.py:416} INFO - Running <TaskInstance: clean_churn_dataset.load manual__2025-12-07T08:26:36.415520+00:00 [running]> on host ec8363f57acd
+[2025-12-07T08:26:48.572+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='clean_churn_dataset' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2025-12-07T08:26:36.415520+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-12-07T08:26:36.415520+00:00'
+[2025-12-07T08:26:48.634+0000] {base.py:73} INFO - Using connection ID 'destination_db' for task execution.
+[2025-12-07T08:26:49.277+0000] {sql.py:527} INFO - Loaded 1000 rows into clean_users_churn so far
+[2025-12-07T08:26:49.964+0000] {sql.py:527} INFO - Loaded 2000 rows into clean_users_churn so far
+[2025-12-07T08:26:50.586+0000] {sql.py:527} INFO - Loaded 3000 rows into clean_users_churn so far
+[2025-12-07T08:26:51.338+0000] {sql.py:527} INFO - Loaded 4000 rows into clean_users_churn so far
+[2025-12-07T08:26:52.109+0000] {sql.py:527} INFO - Loaded 5000 rows into clean_users_churn so far
+[2025-12-07T08:26:52.883+0000] {sql.py:527} INFO - Loaded 6000 rows into clean_users_churn so far
+[2025-12-07T08:26:53.570+0000] {sql.py:527} INFO - Loaded 7000 rows into clean_users_churn so far
+[2025-12-07T08:26:53.590+0000] {sql.py:530} INFO - Done loading. Loaded a total of 7032 rows into clean_users_churn
+[2025-12-07T08:26:53.592+0000] {python.py:194} INFO - Done. Returned value was: None
+[2025-12-07T08:26:53.601+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clean_churn_dataset, task_id=load, execution_date=20251207T082636, start_date=20251207T082647, end_date=20251207T082653
+[2025-12-07T08:26:53.662+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-07T08:26:53.677+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

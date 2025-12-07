@@ -1,0 +1,109 @@
+[2025-12-07T12:19:15.373+0000] {processor.py:157} INFO - Started process (PID=1112) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:15.374+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:19:15.377+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.377+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:15.390+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:15.588+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.587+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-07T12:19:15.599+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.599+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-07T12:19:15.607+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.607+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-07T12:19:15.607+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.607+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:19:15.620+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.620+0000] {dag.py:2963} INFO - Creating ORM DAG for prepare_flats_features
+[2025-12-07T12:19:15.630+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:15.630+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:19:15.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.296 seconds
+[2025-12-07T12:19:45.972+0000] {processor.py:157} INFO - Started process (PID=1169) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:45.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:19:46.010+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:46.010+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:46.060+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:19:46.215+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:46.215+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:19:46.473+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:19:46.472+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:19:46.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.681 seconds
+[2025-12-07T12:20:16.985+0000] {processor.py:157} INFO - Started process (PID=1225) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:16.996+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:20:17.003+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:17.003+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:17.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:17.191+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:17.191+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:20:17.408+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:17.389+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:20:17.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.770 seconds
+[2025-12-07T12:20:48.669+0000] {processor.py:157} INFO - Started process (PID=1281) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:48.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:20:48.675+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:48.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:48.709+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:20:48.790+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:48.789+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:20:48.883+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:20:48.883+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:20:48.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.306 seconds
+[2025-12-07T12:21:19.795+0000] {processor.py:157} INFO - Started process (PID=1338) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:19.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:21:19.811+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:19.811+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:19.866+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:20.050+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:20.050+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:21:20.204+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:20.204+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:21:20.414+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.641 seconds
+[2025-12-07T12:21:51.398+0000] {processor.py:157} INFO - Started process (PID=1395) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:51.405+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:21:51.408+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:51.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:51.435+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:21:51.495+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:51.495+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:21:51.564+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:21:51.564+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:21:51.614+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.226 seconds
+[2025-12-07T12:22:22.089+0000] {processor.py:157} INFO - Started process (PID=1452) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:22.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:22:22.111+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:22.111+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:22.133+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:22.201+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:22.200+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:22:22.300+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:22.300+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:22:22.375+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.307 seconds
+[2025-12-07T12:22:52.596+0000] {processor.py:157} INFO - Started process (PID=1507) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:52.663+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:22:52.666+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:52.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:52.722+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:22:52.840+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:52.840+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:22:53.036+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:22:53.036+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:22:53.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.596 seconds
+[2025-12-07T12:23:23.341+0000] {processor.py:157} INFO - Started process (PID=1566) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:23.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:23:23.359+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:23.359+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:23.378+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:23.453+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:23.453+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:23:23.527+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:23.527+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:23:23.581+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.246 seconds
+[2025-12-07T12:23:53.902+0000] {processor.py:157} INFO - Started process (PID=1621) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:53.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:23:53.929+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:53.928+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:53.979+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:23:54.151+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:54.151+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:23:54.299+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:23:54.299+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:23:54.425+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.556 seconds
+[2025-12-07T12:24:25.277+0000] {processor.py:157} INFO - Started process (PID=1678) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:25.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:24:25.307+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:25.307+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:25.411+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:25.609+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:25.609+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:24:25.895+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:25.895+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:24:26.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.790 seconds
+[2025-12-07T12:24:56.678+0000] {processor.py:157} INFO - Started process (PID=1736) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:56.682+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:24:56.695+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:56.695+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:56.717+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:24:56.855+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:56.855+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:24:56.951+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:24:56.951+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:24:57.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.336 seconds
+[2025-12-07T12:25:27.276+0000] {processor.py:157} INFO - Started process (PID=1794) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:27.290+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:25:27.307+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:27.307+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:27.316+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:27.367+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:27.367+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:25:27.427+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:27.427+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:25:27.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.231 seconds
+[2025-12-07T12:25:57.644+0000] {processor.py:157} INFO - Started process (PID=1848) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:57.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:25:57.654+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:57.654+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:57.677+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:25:57.729+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:57.728+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:25:57.826+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:25:57.825+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:25:57.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.249 seconds
+[2025-12-07T12:26:28.208+0000] {processor.py:157} INFO - Started process (PID=1899) to work on /opt/airflow/dags/flats_features.py
+[2025-12-07T12:26:28.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/flats_features.py for tasks to queue
+[2025-12-07T12:26:28.229+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:26:28.229+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:26:28.290+0000] {processor.py:839} INFO - DAG(s) dict_keys(['prepare_flats_features']) retrieved from /opt/airflow/dags/flats_features.py
+[2025-12-07T12:26:28.447+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:26:28.447+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-12-07T12:26:28.667+0000] {logging_mixin.py:154} INFO - [2025-12-07T12:26:28.667+0000] {dag.py:3722} INFO - Setting next_dagrun for prepare_flats_features to 2023-01-01T00:00:00+00:00, run_after=2023-01-01T00:00:00+00:00
+[2025-12-07T12:26:28.910+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/flats_features.py took 0.729 seconds

@@ -1,0 +1,15 @@
+index_col: 'customer_id'
+target_col: 'target'
+one_hot_drop: 'if_binary'
+n_splits: 5
+metrics: ['f1', 'roc_auc']
+n_jobs: -1
+
+# Параметры модели LogisticRegression
+logreg:
+  C: 1.0
+  penalty: 'l2'
+  max_iter: 1000
+
+
+

@@ -1,0 +1,29 @@
+[2025-12-07T08:26:31.863+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: clean_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [queued]>
+[2025-12-07T08:26:31.871+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: clean_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [queued]>
+[2025-12-07T08:26:31.872+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-12-07T08:26:31.886+0000] {taskinstance.py:1382} INFO - Executing <Task(_PythonDecoratedOperator): transform> on 2023-01-01 00:00:00+00:00
+[2025-12-07T08:26:31.893+0000] {standard_task_runner.py:57} INFO - Started process 140 to run task
+[2025-12-07T08:26:31.898+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'clean_churn_dataset', 'transform', 'scheduled__2023-01-01T00:00:00+00:00', '--job-id', '50', '--raw', '--subdir', 'DAGS_FOLDER/clean_churn.py', '--cfg-path', '/tmp/tmpldgebkii']
+[2025-12-07T08:26:31.899+0000] {standard_task_runner.py:85} INFO - Job 50: Subtask transform
+[2025-12-07T08:26:31.954+0000] {task_command.py:416} INFO - Running <TaskInstance: clean_churn_dataset.transform scheduled__2023-01-01T00:00:00+00:00 [running]> on host ec8363f57acd
+[2025-12-07T08:26:32.194+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='clean_churn_dataset' AIRFLOW_CTX_TASK_ID='transform' AIRFLOW_CTX_EXECUTION_DATE='2023-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-01-01T00:00:00+00:00'
+[2025-12-07T08:26:32.238+0000] {python.py:194} INFO - Done. Returned value was:      customer_id begin_date   end_date  ... dependents multiple_lines target
+0     6388-TABGU 2014-12-01        NaT  ...        Yes             No      0
+1     1658-BYGOY 2018-07-01 2020-01-01  ...         No            Yes      1
+2     6180-YBIQI 2019-09-01        NaT  ...         No             No      0
+3     6837-BJYDQ 2019-11-01        NaT  ...         No             No      0
+4     0486-LGCCH 2019-03-01        NaT  ...        Yes             No      0
+...          ...        ...        ...  ...        ...            ...    ...
+7038  6840-RESVB 2018-02-01        NaT  ...        Yes            Yes      0
+7039  2234-XADUH 2014-02-01        NaT  ...        Yes            Yes      0
+7040  4801-JZAZL 2019-03-01        NaT  ...        Yes             No      0
+7041  8361-LTMKD 2019-07-01 2019-11-01  ...         No            Yes      1
+7042  3186-AJIEK 2014-08-01        NaT  ...         No             No      0
+
+[7032 rows x 21 columns]
+[2025-12-07T08:26:32.265+0000] {warnings.py:109} WARNING - /home/***/.local/lib/python3.10/site-packages/pyarrow/pandas_compat.py:373: FutureWarning: is_sparse is deprecated and will be removed in a future version. Check `isinstance(dtype, pd.SparseDtype)` instead.
+  if _pandas_api.is_sparse(col):
+
+[2025-12-07T08:26:32.368+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=clean_churn_dataset, task_id=transform, execution_date=20230101T000000, start_date=20251207T082631, end_date=20251207T082632
+[2025-12-07T08:26:32.402+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-12-07T08:26:32.423+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
